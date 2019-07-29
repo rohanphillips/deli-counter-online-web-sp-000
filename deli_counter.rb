@@ -1,4 +1,4 @@
-
+require "pry"
 
 def line(line)
   message = "The line is currently empty.";
@@ -6,8 +6,7 @@ def line(line)
       if i = 0
         message = "The line is currently: "
       end
-      puts i
-      puts n
+      binding.pry
       message << (i + 1).to_s + ". " + n
   end
   puts message
