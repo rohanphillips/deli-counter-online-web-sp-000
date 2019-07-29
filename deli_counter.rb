@@ -8,7 +8,7 @@ def line(line)
       end
       puts index
       message << (index + 1).to_s + ". " + n
-      binding.pry
+      #binding.pry
   end
   puts message
 end
