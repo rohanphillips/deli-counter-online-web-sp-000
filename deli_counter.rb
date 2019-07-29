@@ -30,5 +30,6 @@ def now_serving(line)
   else
     message = "There is nobody waiting to be served!"
   end
+  puts message
   return message
 end
