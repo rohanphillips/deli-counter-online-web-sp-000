@@ -6,13 +6,13 @@ def line(line)
     if index == 0
       message = "The line is currently: "
     end
-    message << (index + 1).to_s 
-    message << ". " 
+    message << (index + 1).to_s
+    message << ". "
     message << n
     if index < line.size - 1
       message << " "
     end
-    
+
   end
   puts message
 end
