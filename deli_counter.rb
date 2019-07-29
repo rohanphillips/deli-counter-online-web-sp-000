@@ -23,7 +23,7 @@ def take_a_number(line, name)
   puts message
 end
 
-def now_serving(line){
+def now_serving(line)
   if line.length > 0
     message = "Currently serving " + line[0] + "."
     line.shift()
