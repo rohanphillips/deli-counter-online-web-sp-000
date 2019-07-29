@@ -6,6 +6,8 @@ def line(line)
       if i = 0
         message = "The line is currently: "
       end
+      puts i 
+      puts n 
       message << (i + 1).to_s + ". " + n
   end
   puts message
