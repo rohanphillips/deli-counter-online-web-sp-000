@@ -6,7 +6,7 @@ def line(line)
       if i = 0
         message = "The line is currently: "
       end
-      message << (i + 1).to_s + n
+      message << (i + 1).to_s + "." + n
   end
   puts message
 end
