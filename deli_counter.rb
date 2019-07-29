@@ -14,5 +14,5 @@ def line(line)
   else
     message = "The line is currently empty."
   end
-  return message
+  puts message
 end
