@@ -24,8 +24,8 @@ function currentLine(line){
     for (let i = 0; i < line.length; i++){
       message = message + (i + 1) + ". " + line[i];
       if (i !== line.length - 1){
-         message = message + ", "  
-      } 
+         message = message + ", "
+      }
     }
   } else {
     message = "The line is currently empty."
