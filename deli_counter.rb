@@ -6,7 +6,7 @@ def line(line)
     if index = 0
       message = "The line is currently: "
     end
-    message << (index + 1).to_s + ". " + n
+    message = message + (index + 1).to_s + ". " + n
       #binding.pry
   end
   puts message
