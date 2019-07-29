@@ -27,7 +27,7 @@ def nowServing(line){
   if line.length > 0
     message = "Currently serving " + line[0] + "."
     line.shift()
-  else 
+  else
     message = "There is nobody waiting to be served!"
   end
   return message
