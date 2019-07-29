@@ -18,8 +18,6 @@ def line(line)
 end
 
 def take_a_number(line, name)
-  var message;
   line.push(name);
   message = `Welcome, ${name}. You are number ${line.length} in line.`
-  return message;
 end
