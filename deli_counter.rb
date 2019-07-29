@@ -6,7 +6,7 @@ def line(line)
   if line.length > 0
     message = "The line is currently: ";
     while i < line.length
-      message = message + (i + 1) + ". " + line[i];
+      #message = message + (i + 1) + ". " + line[i];
       if i != line.length - 1
          message = message + ", "
       end
