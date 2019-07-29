@@ -3,6 +3,7 @@ require "pry"
 def line(line)
   message = "The line is currently empty.";
   line.each_with_index do |n, index|
+    puts "test"
       #if index = 0
       #  message = "The line is currently: "
     #  end
