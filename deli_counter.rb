@@ -15,4 +15,4 @@ def currentLine(line)
     message = "The line is currently empty."
   end
   return message
-}
+end
