@@ -22,3 +22,13 @@ def take_a_number(line, name)
   message = "Welcome, #{name}. You are number #{line.length} in line."
   puts message
 end
+
+def nowServing(line){
+  if line.length > 0
+    message = "Currently serving " + line[0] + "."
+    line.shift()
+  else 
+    message = "There is nobody waiting to be served!"
+  end
+  return message
+end
