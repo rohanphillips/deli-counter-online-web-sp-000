@@ -5,10 +5,14 @@ def line(line)
   line.each_with_index do |n, index|
     if index == 0
       message = "The line is currently: "
-      binding.pry
     end
-    message = message + (index + 1).to_s + ". " + n
-      #binding.pry
+    message << (index + 1).to_s 
+    message << ". " 
+    message << n
+    if index < line.size - 1
+      message << " "
+    end
+    
   end
   puts message
 end
