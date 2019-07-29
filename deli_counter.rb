@@ -1,6 +1,6 @@
 
 
-def currentLine(line)
+def line(line)
   message = "";
   i = 0
   if line.length > 0
